@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const API_URL = import.meta.env.VITE_API_URL || "https://churn-backend-as6g.onrender.com";
 
 const defaultForm = {
   gender: "Male", age: 35, country: "USA", city: "New York",
